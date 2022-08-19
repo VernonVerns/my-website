@@ -1,0 +1,151 @@
+@media screen and (max-width: 586px) { 
+    .page-title {
+        font-size: clamp(35px, 5vw, 40px);
+        color: $primary-color;
+        margin: 0;
+        margin-bottom: 2em;
+        font-weight: 700;
+
+        span {
+            color: $secondary-color;
+        }
+    }
+    
+    .main-title {
+        font-size: clamp(30px, 5vw, 50px);
+        color: $secondary-color;
+        margin-bottom: 0.5em;
+        font-weight: 700;
+    }
+
+    #navigation_bar {
+		width: 100%;
+		padding: 1em 1.5em;
+
+		img {
+			width: 90px;
+		}
+
+		.navbar-toggler {
+			font-size: 16px;
+		}
+
+		ul.navbar-nav {
+			margin-top: 1em;
+
+			li {
+				a {
+					border-radius: 10px;
+				}
+                &.action-btn {
+                    a {
+                        display: block;
+                    }
+                }
+			}
+		}
+	}
+
+    #home_page {
+        .hero-part {
+            .content {
+                min-height: 80vh !important;
+
+                .text-side {
+                    width: 80% !important;
+            
+                    h1 {
+                        width: 100% !important;
+                    }
+            
+                    p {
+                        width: 100% !important;
+                    }
+                }
+            
+                .img-container {
+                    bottom: 8em;
+                    right: -4em !important;
+                    width: 55% !important;
+                }
+            
+                .hero-footer {
+                    padding: 0.5em 1em 0.5em 1em !important;
+            
+                    .socials {
+                        a {
+                            margin-right: 0.5em;
+                        }
+                    }
+            
+                    p {
+                        text-align: right;
+                        font-size: 12px !important;
+                    }
+                }
+            }
+        }
+
+        .about-us {
+            .content {
+                padding: 2em;
+                grid-template-columns: auto;
+                grid-template-rows: repeat(3, auto);
+
+                .page-title {
+                    margin-bottom: 1em;
+                }
+
+                ul {
+                    display: inline-flex;
+                    flex-wrap: wrap;
+                    gap: 1.5em;
+
+                    li {
+                        margin-bottom: 1.5em;
+
+                        h4 {
+                            margin-bottom: 0.1em;
+                        }
+
+                        span {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .service {
+            .content {
+                padding: 3em 2em;
+                min-height: 70vh;
+
+                .header-part {
+                    display: grid;
+                    grid-template-columns: auto;
+                    grid-template-rows: auto auto;
+
+                    .page-title {
+                        margin-bottom: 1em;
+                    }
+            
+                    p {
+                        justify-self: flex-start;
+                        width: 90%;
+                        margin-bottom: 3em;
+                    }
+                }
+            }
+        }
+
+        .contact-us {
+            background-color: $tertiary-color;
+            padding: 3em 2em;
+
+            .text-side {
+                margin-bottom: 3em;
+            }
+        }
+    }
+}

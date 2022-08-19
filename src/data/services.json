@@ -1,0 +1,22 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "image": "cloud.png",
+            "title": "Cloud Computing Consultation",
+            "description": "With the evolution of technology and with our expertise, we provide consultation for cloud computing projects and help companies to harness the beauty of cloud computing, by helping them migrate their on-premises systems to the cloud."
+        },
+        {
+            "id": 2,
+            "image": "development.png",
+            "title": "Software Development",
+            "description": "Our software application catalogue ranges from a static website to a complex cloud-based enterprise application. We have a dedicated unit focused on web design and development. mY ++ has quite a stable portfolio of clients we have worked with and delivered various software products for."
+        },
+        {
+            "id": 3,
+            "image": "maintenance.png",
+            "title": "Software Maintenance and Support",
+            "description": "Software maintenance and support services are additions to our bespoke software development service offering. As we have built numerous complex cloud-based software solutions, we have also been maintaining these solutions and providing related support and maintenance over an agreed period."
+        }
+    ]
+}
