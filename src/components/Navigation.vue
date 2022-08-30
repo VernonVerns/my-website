@@ -43,19 +43,19 @@
             <div class="collapse navbar-collapse" id="navbar_menu">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <router-link class="nav-link active" aria-current="page" to="/">Home</router-link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about_us">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#our_services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Products</a>
+                        <a class="nav-link" href="#our_projects">Projects</a>
                     </li>
                     <li class="nav-item action-btn">
-                        <a class="nav-link border-btn" href="#">Let's Talk</a>
+                        <a class="nav-link border-btn" href="#contact_us">Let's Talk</a>
                     </li>
                 </ul>
             </div>

@@ -1,7 +1,9 @@
 <script setup lang="ts">
 	import { socialLinks } from '@/data/socialLinks.json';
 	import { services } from '@/data/services.json';
+	import { projects } from '@/data/projects.json';
 	import Service from '@/components/Service.vue';
+	import Project from '@/components/Project.vue';
 </script>
 <template>
 	<div id="home_page">
@@ -11,7 +13,7 @@
 					<h1>We create <span>unique &amp; efficient</span> digital solutions</h1>
 					<p>We are providing solutions for all kinds of businesses, from small to enterprise organizations,
 						individuals as well as the general public.</p>
-					<router-link to="/" class="main-btn">Checkout our Products</router-link>
+					<router-link to="/#our_projects" class="main-btn">Checkout our Products</router-link>
 				</div>
 
 				<div class="img-container">
@@ -28,7 +30,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="about-us">
+		<div class="about-us" id="about_us">
 			<div class="content">
 				<h1 class="page-title">Our story</h1>
 				<ul class="list-unstyled">
@@ -70,17 +72,17 @@
 				</div>
 			</div>
 		</div>
-		<div class="service">
+		<div class="service" id="our_services">
 			<div class="content">
 				<div class="header-part">
 					<h1 class="page-title">Services <span>we offer</span></h1>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, earum aut aperiam sequi
-						veritatis provident.
+						We are providing solutions for all kinds of businesses, from small to enterprise organizations,
+						individuals as well as the general public.
 					</p>
 				</div>
 				<div class="service-list">
-					<div class="row gx-3 gy-3">
+					<div class="row gy-5">
 						<div class="col-sm-4" v-for="service in services" :key="service.id">
 							<Service :service="service" />
 						</div>
@@ -88,7 +90,24 @@
 				</div>
 			</div>
 		</div>
-		<div class="contact-us">
+		<div class="projects" id="our_projects">
+			<div class="content">
+				<div class="header-part">
+					<h1 class="page-title">Our <span>projects</span></h1>
+					<p>
+						We have a wide range of projects that we are proud to be working on. You can request a demo of any our listed projects.
+					</p>
+				</div>
+				<div class="projects-list">
+					<div class="row gx-5 gy-5 justify-content-center">
+            			<div class="col-sm-10" v-for="project in projects" :key="project.id">
+							<Project :project="project"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contact-us" id="contact_us">
 			<div class="container">
 				<div class="row gx-3 gy-5">
 					<div class="col-sm-5">

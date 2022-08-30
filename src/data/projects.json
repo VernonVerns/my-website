@@ -1,0 +1,34 @@
+{
+    "projects": [
+        {
+            "id": "1",
+            "name": "Service Desk Solution",
+            "description": "Our service desk solution provides a primary point of communication between an organization and its customers. This solution manages problem tickets, tasks, and communication all in a centralized place to provide a great customer experience and problem resolution efficiently for the organization's business model.",
+            "image": "service-desk.jpg",
+            "listTitle": "This solution offers the below high-level functions:",
+            "listItems": [
+                {
+                    "name": "Multiple communication channels"
+                },
+                {
+                    "name": "Support for SLA Policies"
+                },
+                {
+                    "name": "Robust reporting & analytics"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "WhatsApp Insurance Onboarding Solution",
+            "description": "Whereby we build a paperless insurance onboarding system to assist our partners to work more efficiently and effectively. The WhatsApp insurance onboarding solution enables our partners to engage more clients. The WhatsApp insurance onboarding solutions also help make conversations personalized and real-time. It enables policyholders to communicate with their insurers on a platform they are comfortable with rather than having to download a new app or visit the website.",
+            "image": "onboarding.jpg"
+        },
+        {
+            "id": "3",
+            "name": "WhatsApp Reservation System",
+            "description": "We are currently in the pipeline of building a system that will allow for real-time reservations, whether it is booking a hotel, making a reservation for a restaurant, or renting a car in with a rental agency.",
+            "image": "reservation.webp"
+        }
+    ]
+}

@@ -3,26 +3,26 @@
         {
             "id": 1,
             "name": "Facebook",
-            "url": "https://www.facebook.com/",
+            "url": "https://www.facebook.com/MYplusplus-103127909199088",
             "icon": "fa-facebook"
         },
         {
             "id": 2,
             "name": "Twitter",
-            "url": "https://twitter.com/",
+            "url": "https://twitter.com/myplusplus",
             "icon": "fa-twitter"
         },
         {
             "id": 3,
-            "name": "Instagram",
-            "url": "https://www.instagram.com/",
-            "icon": "fa-instagram"
+            "name": "Linkedin",
+            "url": "https://www.linkedin.com/company/myplusplus-inc/",
+            "icon": "fa-linkedin"
         },
         {
             "id": 4,
-            "name": "Linkedin",
-            "url": "https://www.linkedin.com/",
-            "icon": "fa-linkedin"
+            "name": "WhatsApp",
+            "url": "https://wa.me/27780687445?text=Hi%20-%20Please%20Can%20you%20assist%20me?",
+            "icon": "fa-whatsapp"
         }
     ]
 }

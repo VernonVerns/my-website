@@ -139,6 +139,28 @@
             }
         }
 
+        .projects {
+            .content { 
+                padding: 3em 2em;
+
+                .header-part {
+                    display: grid;
+                    grid-template-columns: auto;
+                    grid-template-rows: auto auto;
+            
+                    .page-title {
+                        margin-bottom: 1em;
+                    }
+            
+                    p {
+                        justify-self: flex-start;
+                        width: 90%;
+                        margin-bottom: 3em;
+                    }
+                }
+            }
+        }
+
         .contact-us {
             background-color: $tertiary-color;
             padding: 3em 2em;
@@ -148,4 +170,19 @@
             }
         }
     }
+
+    .footer-part {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        justify-content: center;
+
+        .left-side {
+            justify-self: center;
+        }
+
+        .right-side {
+            justify-self: center;
+        }
+    }
+
 }
