@@ -5,7 +5,7 @@
 <template>
     <div class="service-item" v-if="service">
         <div class="icon">
-            <img :src="`https://sam-updated-stack-publics3buckettohostfrontend-1tpcgnlyf2qr9.s3.amazonaws.com/${service.image}`"
+            <img :src="`https://myplusplus.com/img/${service.image}`"
                 alt="Image for the service">
         </div>
         <div class="text">
